@@ -39,6 +39,36 @@ footer {
     background-color: #CB2BE2;
     padding: 10px;
     text-align: center;
+    color: #ffffff;
     
+}
 
+.social-links {
+
+    margin-top: 10px; 
+
+}
+
+.social-links > a {
+
+    margin:0 10px; 
+    color: white; 
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+.social-links > a:hover {
+
+    color:blue;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+
+footer p {
+
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
 }

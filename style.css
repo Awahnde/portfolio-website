@@ -72,3 +72,52 @@ footer p {
     font-weight: bold;
     font-size: 10px;
 }
+
+/*Project list*/
+
+.project-list {
+
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.project-card {
+
+    background-color: #333;
+    border-left: 4px solid rgb(70, 65, 65);
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 15px whitesmoke;
+    transition: transform 0.25s;
+
+}
+
+.project-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.project-card > h3 {
+
+    margin-top: 0;
+    color:azure;
+
+}
+
+.project-card > a {
+
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#ffffff;
+
+}
+
